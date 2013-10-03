@@ -46,6 +46,16 @@ display: table; /* 2 */
 
 
 
+.gl-outer{
+  width: 100%;
+}
+
+.gl-inner{
+  max-width: 944px;
+  width:100%;
+  margin:0 auto;
+}
+
 
 /*
 --------The normalize 
@@ -116,7 +126,6 @@ audio:not([controls]) {
  */
 
 html {
-    font-family: sans-serif; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -125,9 +134,12 @@ html {
  * Remove default margin.
  */
 
-body {
+html, body {
     margin: 0;
+    padding:0;
+    max-width: 944px;
 }
+
 
 /* ==========================================================================
    Links
@@ -137,9 +149,6 @@ body {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
-a:focus {
-    outline: thin dotted;
-}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -159,10 +168,6 @@ a:hover {
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
 
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
@@ -399,12 +404,6 @@ input[type="radio"] {
  *    (include `-moz` to future-proof).
  */
 
-input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
-    box-sizing: content-box;
-}
 
 /**
  * Remove inner padding and search cancel button in Safari 5 and Chrome
