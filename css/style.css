@@ -249,6 +249,7 @@ img{
 	margin: 13px 0;
 	line-height: 1.5;
 	vertical-align: middle;
+	list-style-type: none;
 }
 
 .top-menu-item-wrap:not(:first-child){
