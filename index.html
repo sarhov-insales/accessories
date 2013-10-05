@@ -1,241 +1,245 @@
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Accessories</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/global.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="web_icons.css">
-        <link rel="stylesheet" href="css/media.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
-        <script src="js/libs/modernizr.min.js"></script>
-    </head>
-    <body>
-            
-        <div class="gl-outer all-wrap">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Accessories</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
+    <script src="js/libs/modernizr.min.js"></script>
+</head>
+<body>
 
-            <header class="gl-inner m-header cf rel">
-                <h1 class="logo fl">
-                    <a href="" class="logo-url">
-                        <img src="" alt="" class="logo-img">
-                    </a> <!-- logo-url -->
-                </h1> <!-- logo -->
+  <header class="gl-inner m-header cf rel">
+    <h1 class="logo fl">
+        <!-- in case when show only logo -->
+        <a href="" class="logo-url">
+            <img src="logo.png" alt="the logo" class="logo-img">
+        </a> <!-- logo-url -->
+        <!-- in case when show the text instead of logo image-->
+      <!--  <a href="#" class="logo-text-url">
+            The site name
+        </a> -->
+    </h1> <!-- logo -->
 
-                <div class="b-cart abs">
-                    <a href="" class="cart-url">корзина</a>
-                    <span class="cart-text"><span class="cart-count"></span></span>
-                </div> <!-- b-cart -->
+    <div class="b-cart rel fr">
+        <a href="" class="cart-url">корзина: </a>
+        <span class="cart-text">сейчас в вашей корзине 
+            <span class="cart-count">5</span> товаров
+        </span>
+    </div> <!-- b-cart -->
 
-                <div class="login-warp abs">
-                    <a href="#" class="login" id="logIn">
-                        Войты
-                    </a> <!-- login -->
-                    <div class="b-login">
+    <div class="login-wrap abs">
+        <a href="#" class="login" id="logIn">
+            Войты
+        </a> <!-- login -->
+        <div class="b-login">
 
-                        <!-- when user is not client show this one -->
-                        <form action="">
-                            <input type="text" class="b-login-input">
-                            <input type="text" class="b-login-input">
-                            <button class="button login-submit">войти</button>
-                            <a href="#" class="button to-reg">регистрация</a>
-                        </form>
+            <!-- when user is not client show this one -->
+            <form action="">
+                <input type="text" class="b-login-input">
+                <input type="text" class="b-login-input">
+                <button class="button login-submit">войти</button>
+                <a href="#" class="button to-reg">регистрация</a>
+            </form>
 
-                        <!--and  when is client show the bellow -->
-                        <nav class="b-login-nav" style="display:none">
-                            <a href="#" class="b-login-nav-item">Заказы и скидки</a>
-                            <a href="#" class="b-login-nav-item">Адрес доставки </a>
-                            <a href="#" class="b-login-nav-item">Контактные данные</a>
-                            <a href="#" class="b-login-nav-item">Обратная связь</a>
-                        </nav> <!-- b-login-nav -->
+            <!--and  when is client show the bellow -->
+            <!-- <nav class="b-login-nav" style="display:none">
+                <a href="#" class="b-login-nav-item">Заказы и скидки</a>
+                <a href="#" class="b-login-nav-item">Адрес доставки </a>
+                <a href="#" class="b-login-nav-item">Контактные данные</a>
+                <a href="#" class="b-login-nav-item">Обратная связь</a>
+            </nav> -->
 
-                    </div> <!-- b-login -->
-                </div> <!-- login-wrap -->
-            </header> <!-- m-header -->
+        </div> <!-- b-login -->
+    </div> <!-- login-wrap -->
+  </header> <!-- m-header -->
 
-            <div class="gl-outer top-nav-wrapper">
-                <nav class="gl-inner b-top-menu">
-                    <menu class="top-menu">
-                        <li class="top-menu-item-wrap">
-                            <a href="#" class="top-menu-item"> главная </a>
-                        </li>
-                        <li class="top-menu-item-wrap">
-                            <a href="#" class="top-menu-item">новие продукты</a>
-                        </li>
-                        <li class="top-menu-item-wrap">
-                            <a href="#" class="top-menu-item">специальное</a>
-                        </li>
-                        <li class="top-menu-item-wrap">
-                            <a href="#" class="top-menu-item">все продукты</a>
-                        </li>
-                        <li class="top-menu-item-wrap">
-                            <a href="#" class="top-menu-item">отзывы</a>
-                        </li>
-                        <li class="top-menu-item-wrap">
-                            <a href="#" class="top-menu-item">обратная связь</a>
-                        </li>
-                    </menu> <!-- top-menu -->
-                </nav> <!-- b-top-menu -->
-            </div> <!-- top-nav-wrapper -->
+  <div class="gl-outer top-nav-wrapper">
+    <nav class="gl-inner b-top-menu">
+      <menu class="top-menu">
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item"> главная </a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">новие продукты</a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">специальное</a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">все продукты</a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">отзывы</a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">обратная связь</a>
+        </li>
+      </menu> <!-- top-menu -->
+    </nav> <!-- b-top-menu -->
+  </div> <!-- top-nav-wrapper -->
 
-            <div class="main-page content-wrap gl-inner">
-                <section class="b-main-blocks">
+  <div class="main-page content-wrap gl-inner">
+    <section class="b-main-blocks">
 
-                    <article class="b-main-block">
-                        <figure class="b-main-bg">
-                            <a href="#" class="b-main-bg-url">
-                                название категории
-                            </a>
-                        </figure> <!-- b-main-bg -->
-                            <h1 class="b-main-block-title">
-                                <a href="" class="b-main-block-title-url">
-                                    
-                                 </a> <!-- b-main-block-title-url -->
-                        </h1> <!-- b-main-block-title -->
-                    </article> <!-- b-main-block -->
-                    
-                    <article class="b-main-block">
-                        <figure class="b-main-bg">
-                            <a href="#" class="b-main-bg-url">
-                                название категории
-                            </a>
-                        </figure> <!-- b-main-bg -->
-                            <h1 class="b-main-block-title">
-                                <a href="" class="b-main-block-title-url">
-                                    
-                                 </a> <!-- b-main-block-title-url -->
-                        </h1> <!-- b-main-block-title -->
-                    </article> <!-- b-main-block -->
-                    
-                    <article class="b-main-block">
-                        <figure class="b-main-bg">
-                            <a href="#" class="b-main-bg-url">
-                                название категории
-                            </a>
-                        </figure> <!-- b-main-bg -->
-                            <h1 class="b-main-block-title">
-                                <a href="" class="b-main-block-title-url">
-                                    
-                                 </a> <!-- b-main-block-title-url -->
-                        </h1> <!-- b-main-block-title -->
-                    </article> <!-- b-main-block -->
-                    
-                    <article class="b-main-block">
-                        <figure class="b-main-bg">
-                            <a href="#" class="b-main-bg-url">
-                                название категории
-                            </a>
-                        </figure> <!-- b-main-bg -->
-                            <h1 class="b-main-block-title">
-                                <a href="" class="b-main-block-title-url">
-                                    
-                                 </a> <!-- b-main-block-title-url -->
-                        </h1> <!-- b-main-block-title -->
-                    </article> <!-- b-main-block -->
-                    
-                    <article class="b-main-block">
-                        <figure class="b-main-bg">
-                            <a href="#" class="b-main-bg-url">
-                                название категории
-                            </a>
-                        </figure> <!-- b-main-bg -->
-                            <h1 class="b-main-block-title">
-                                <a href="" class="b-main-block-title-url">
-                                    
-                                 </a> <!-- b-main-block-title-url -->
-                        </h1> <!-- b-main-block-title -->
-                    </article> <!-- b-main-block -->
-                    
-                    <article class="b-main-block">
-                        <figure class="b-main-bg">
-                            <a href="#" class="b-main-bg-url">
-                                название категории
-                            </a>
-                        </figure> <!-- b-main-bg -->
-                            <h1 class="b-main-block-title">
-                                <a href="" class="b-main-block-title-url">
-                                    
-                                 </a> <!-- b-main-block-title-url -->
-                        </h1> <!-- b-main-block-title -->
-                    </article> <!-- b-main-block -->
+      <article class="b-main-block">
+        <figure class="b-main-bg">
+          <a href="#" class="b-main-bg-url">
+              название категории
+          </a>
+        </figure> <!-- b-main-bg -->
+        <h1 class="b-main-block-title">
+          <a href="" class="b-main-block-title-url">
+              
+           </a> <!-- b-main-block-title-url -->
+        </h1> <!-- b-main-block-title -->
+      </article> <!-- b-main-block -->
+      
+      <article class="b-main-block">
+        <figure class="b-main-bg">
+          <a href="#" class="b-main-bg-url">
+              название категории
+          </a>
+        </figure> <!-- b-main-bg -->
+        <h1 class="b-main-block-title">
+          <a href="" class="b-main-block-title-url">
+              
+           </a> <!-- b-main-block-title-url -->
+        </h1> <!-- b-main-block-title -->
+      </article> <!-- b-main-block -->
+      
+      <article class="b-main-block">
+        <figure class="b-main-bg">
+          <a href="#" class="b-main-bg-url">
+              название категории
+          </a>
+        </figure> <!-- b-main-bg -->
+        <h1 class="b-main-block-title">
+          <a href="" class="b-main-block-title-url">
+              
+           </a> <!-- b-main-block-title-url -->
+        </h1> <!-- b-main-block-title -->
+      </article> <!-- b-main-block -->
+      
+      <article class="b-main-block">
+        <figure class="b-main-bg">
+          <a href="#" class="b-main-bg-url">
+              название категории
+          </a>
+        </figure> <!-- b-main-bg -->
+        <h1 class="b-main-block-title">
+          <a href="" class="b-main-block-title-url">
+              
+           </a> <!-- b-main-block-title-url -->
+        </h1> <!-- b-main-block-title -->
+      </article> <!-- b-main-block -->
+      
+      <article class="b-main-block">
+        <figure class="b-main-bg">
+          <a href="#" class="b-main-bg-url">
+              название категории
+          </a>
+        </figure> <!-- b-main-bg -->
+        <h1 class="b-main-block-title">
+          <a href="" class="b-main-block-title-url">
+              
+           </a> <!-- b-main-block-title-url -->
+        </h1> <!-- b-main-block-title -->
+      </article> <!-- b-main-block -->
+      
+      <article class="b-main-block">
+        <figure class="b-main-bg">
+          <a href="#" class="b-main-bg-url">
+              название категории
+          </a>
+        </figure> <!-- b-main-bg -->
+        <h1 class="b-main-block-title">
+          <a href="" class="b-main-block-title-url">
+              
+           </a> <!-- b-main-block-title-url -->
+        </h1> <!-- b-main-block-title -->
+      </article> <!-- b-main-block -->
+      
+    </section> <!-- b-main-blocks -->
+  </div> <!-- content-wrap -->
 
-                </section> <!-- b-main-blocks -->
-            </div> <!-- content-wrap -->
+  <footer class="m-footer gl-outer">
+    <section class="foot-blocks cf gl-inner">
 
-            <footer class="m-footer gl-outer">
-                <section class="foot-blocks cf gl-inner">
+      <div class="foot-block-nav foot-block fl">
+        <h2 class="foot-block-title">
+          название меню
+        </h2>
+        <nav class="foot-block-nav-items">
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+        </nav>
+      </div> <!-- foot-block / foot-block-nav -->
 
-                    <div class="foot-block-nav foot-block fl">
-                        <h2 class="foot-block-title">
-                            название меню
-                        </h2>
-                        <nav class="foot-block-nav-items">
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                        </nav>
-                    </div> <!-- foot-block / foot-block-nav -->
+      <div class="foot-block-nav foot-block fl">
+        <h2 class="foot-block-title">
+            название меню
+        </h2>
+        <nav class="foot-block-nav-items">
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+        </nav>
+      </div> <!-- foot-block / foot-block-nav -->
 
-                    <div class="foot-block-nav foot-block fl">
-                        <h2 class="foot-block-title">
-                            название меню
-                        </h2>
-                        <nav class="foot-block-nav-items">
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                        </nav>
-                    </div> <!-- foot-block / foot-block-nav -->
+      <div class="foot-block-nav foot-block fl">
+        <h2 class="foot-block-title">
+          название меню
+        </h2>
+        <nav class="foot-block-nav-items">
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+        </nav>
+      </div> <!-- foot-block / foot-block-nav -->
 
-                    <div class="foot-block-nav foot-block fl">
-                        <h2 class="foot-block-title">
-                            название меню
-                        </h2>
-                        <nav class="foot-block-nav-items">
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                            <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
-                        </nav>
-                    </div> <!-- foot-block / foot-block-nav -->
+      <div class="foot-block foot-block-search">
+        <h2 class="foot-block-title">
+           поиск
+        </h2>
+        <div class="foot-block-search-inputs fr">
+          <form action="" class="foot-blocks-search-form">
+            <input type="text" class="foot-block-input  gl-input-field">
+            <button class="gl-form-button button" type="submit">
+              искать
+            </button>
+          </form> <!-- foot-blocks-search-form -->
+        </div>  <!-- foot-blocks-search-inputs -->
+      </div> <!-- foot-block / foot-block-search- -->
 
-                    <div class="foot-block foot-block-search">
-                        <h2 class="foot-block-title">
-                            поиск
-                        </h2>
-                        <div class="foot-block-search-inputs fr">
-                            <form action="" class="foot-blocks-search-form">
-                                <input type="text" class="foot-block-input  gl-input-field">
-                                <button class="gl-form-button button" type="submit">
-                                    искать
-                                </button>
-                            </form> <!-- foot-blocks-search-form -->
-                        </div>  <!-- foot-blocks-search-inputs -->
-                    </div> <!-- foot-block / foot-block-search- -->
+       <div class="copy fr cb">
+        <a href="#" class="copy-site-title">
+          Accessories &copy; 2013
+        </a>
+        <span>powered by</span>
+        <a class="copy-powered">InSales.ru</a>
+      </div> <!-- copy -->
 
-                     <div class="copy fr cb">
-                        <a href="#" class="copy-site-title">
-                            Accessories &copy; 2013
-                        </a>
-                        <span>powered by</span>
-                        <a class="copy-powered">InSales.ru</a>
-                    </div> <!-- copy -->
-                </section> <!-- foot-blocks -->
-            </footer> <!-- m-footer -->
-            
-        </div> <!-- all-wrap -->
-
-    </body>
+    </section> <!-- foot-blocks -->
+  </footer> <!-- m-footer -->
+  
+</body>
 </html>

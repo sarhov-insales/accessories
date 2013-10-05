@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('droidsans.eot');
+    src: local('Droid Sans'), local('DroidSans'), url('droidsans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Droid Sans';
+    src: local('Droid Sans Bold'), local('DroidSans-Bold'), url('droidsans-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'pecita';
+    src: url('pecita.eot');
+    src: url('pecita.eot?#iefix') format('embedded-opentype'),
+         url('pecita.woff') format('woff'),
+         url('pecita.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid_serifbold';
+    src: url('droidserif-bold.eot');
+    src: url('droidserif-bold.eot?#iefix') format('embedded-opentype'),
+         url('droidserif-bold.woff') format('woff'),
+         url('droidserif-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid_serifbold_italic';
+    src: url('droidserif-bolditalic.eot');
+    src: url('droidserif-bolditalic.eot?#iefix') format('embedded-opentype'),
+         url('droidserif-bolditalic.woff') format('woff'),
+         url('droidserif-bolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid_serifitalic';
+    src: url('droidserif-italic.eot');
+    src: url('droidserif-italic.eot?#iefix') format('embedded-opentype'),
+         url('droidserif-italic.woff') format('woff'),
+         url('droidserif-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'droid_serifregular';
+    src: url('droidserif-regular.eot');
+    src: url('droidserif-regular.eot?#iefix') format('embedded-opentype'),
+         url('droidserif-regular.woff') format('woff'),
+         url('droidserif-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
