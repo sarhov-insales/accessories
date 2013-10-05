@@ -9,12 +9,28 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/iefix.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
     <script src="js/libs/modernizr.min.js"></script>
+    <script src="js/functions.js"></script>
+
+
+
+    <!--[if gte IE 9]>
+    <style type="text/css">
+    .gradient {
+    filter: none;
+    }
+    </style>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/iefix.css">
+    <![endif]-->
 </head>
 <body class="cf">
 
@@ -41,10 +57,10 @@
         <a href="#" class="login" id="logIn">
             Войти
         </a> <!-- login -->
-        <div class="b-login abs">
+        <div class="b-login abs" id="loginDropdown">
 
-            <!-- when user is not client show this one -->
-            <form action="">
+              <!-- when user is not client show this one -->
+           <form action="">
               <label for="login-mail" class="b-login-label">Эл. Почта</label>
                 <input type="text" id="login-mail" class="b-login-input gl-input-field">
                 <label for="login-password" class="b-login-label">Пароль</label>
@@ -53,14 +69,15 @@
                 <a href="#" class="button to-reg fl">регистрация</a>
                 <a href="" class="link password-forget cb">забыли пароль ?</a>
             </form>
-
-            <!--and  when is client show the bellow -->
-            <!-- <nav class="b-login-nav" style="display:none">
+   
+              <!--and  when is client show the bellow -->
+            <nav class="b-login-nav" style="display:none;">
                 <a href="#" class="b-login-nav-item">Заказы и скидки</a>
                 <a href="#" class="b-login-nav-item">Адрес доставки </a>
                 <a href="#" class="b-login-nav-item">Контактные данные</a>
                 <a href="#" class="b-login-nav-item">Обратная связь</a>
-            </nav> -->
+                <a href="#" class="b-login-nav-item">Выход</a>
+            </nav> 
 
         </div> <!-- b-login -->
     </div> <!-- login-wrap -->
@@ -69,11 +86,11 @@
   <div class="gl-outer top-nav-wrapper">
     <nav class="gl-inner b-top-menu">
       <menu class="top-menu">
-        <li class="top-menu-item-wrap">
-          <a href="#" class="top-menu-item"> главная </a>
+        <li class="top-menu-item-wrap ">
+          <a href="#" class="top-menu-item active"> главная </a>
         </li>
         <li class="top-menu-item-wrap">
-          <a href="#" class="top-menu-item">новие продукты</a>
+          <a href="#" class="top-menu-item">новинки</a>
         </li>
         <li class="top-menu-item-wrap">
           <a href="#" class="top-menu-item">специальное</a>
@@ -84,8 +101,11 @@
         <li class="top-menu-item-wrap">
           <a href="#" class="top-menu-item">отзывы</a>
         </li>
+         <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">контакт</a>
+        </li>
         <li class="top-menu-item-wrap">
-          <a href="#" class="top-menu-item">обратная связь</a>
+          <a href="#" class="top-menu-item">Помощь </a>
         </li>
       </menu> <!-- top-menu -->
     </nav> <!-- b-top-menu -->

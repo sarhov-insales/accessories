@@ -1,3 +1,13 @@
 .lt-ie9 .login, .lt-ie9 .b-login{
-	background: #E0E0E0;
+	background: #171717;
+}
+
+
+
+.lt-ie9 .top-menu-item-wrap{
+	padding-left: 30px;
+}
+
+.lt-ie9 .top-menu-item-wrap:first-child{
+	padding-left: 0;
 }
