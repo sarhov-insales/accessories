@@ -87,13 +87,14 @@ img{
 	content: '';
 	position: absolute;
 	right: 0;
-	top: 2px;
+	top: 3px;
 	background: transparent url('cur-arrow.png') 6px  6px no-repeat;
 	border-left: 1px dotted #616161;
 	display: inline-block;
-	width: 27px;
-	height: 16px;
+	width: 25px;
+	height: 17px;
 }
+
 .b-login{
 	display: none;
 }
