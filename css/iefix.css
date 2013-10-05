@@ -2,7 +2,9 @@
 	background: #171717;
 }
 
-
+.lt-ie9 .top-nav-wrapper, .lt-ie10 .top-nav-wrapper{
+	background: transparent url('top-menu-bg.png') 0 0 repeat-x;
+}
 
 .lt-ie9 .top-menu-item-wrap{
 	padding-left: 30px;
