@@ -39,16 +39,19 @@
 
     <div class="login-wrap abs">
         <a href="#" class="login" id="logIn">
-            Войты
+            Войти
         </a> <!-- login -->
         <div class="b-login abs">
 
             <!-- when user is not client show this one -->
             <form action="">
-                <input type="text" class="b-login-input gl-input-field">
-                <input type="text" class="b-login-input gl-input-field">
-                <button class="button login-submit">войти</button>
-                <a href="#" class="button to-reg">регистрация</a>
+              <label for="login-mail" class="b-login-label">Эл. Почта</label>
+                <input type="text" id="login-mail" class="b-login-input gl-input-field">
+                <label for="login-password" class="b-login-label">Пароль</label>
+                <input type="text" id="login-password" class="b-login-input gl-input-field">
+                <button class="button login-submit fl">войти</button>
+                <a href="#" class="button to-reg fl">регистрация</a>
+                <a href="" class="link password-forget cb">забыли пароль ?</a>
             </form>
 
             <!--and  when is client show the bellow -->

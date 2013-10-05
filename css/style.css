@@ -18,7 +18,7 @@ body {
 	text-decoration: none;
 	padding: 1px 4px;
 	color: #000;
-	margin:3px ;
+	line-height: 1.5;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -35,11 +35,26 @@ body {
 	color: #444;
 }
 
-nav a{
+.gl-input-field{
+	height: 21px;
+	padding: 2px;
+	background: #161515;
+	border: 1px solid #727272;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav a, .link{
 	color: 	#878E89;
 }
 
-nav a:hover{
+nav a:hover, .link:hover{
 	color: #fff;
 }
 
@@ -128,8 +143,53 @@ img{
 
 .b-login{
 	display: block;
-	top: 120%;
+	top: 35px;
 	right: 0;
-	background: rgba(255,255,255, 0.11);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 5px;
+	width: 145px;
+	background: #171717;
+	border:1px solid #000;
+}
 
+
+.b-login:after, .b-login:before {
+	bottom: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.b-login:after {
+	border-color: rgba(23, 23, 23, 0);
+	border-bottom-color: #171717;
+	border-width: 5px;
+	left: 70%;
+	margin-left: -5px;
+}
+.b-login:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #000000;
+	border-width: 6px;
+	left: 70%;
+	margin-left: -6px;
+}
+
+.login-submit, .to-reg{
+	margin: 4px 4px 4px 0;
+}
+
+.b-login-input{
+	margin-bottom: 3px;
+}
+
+.password-forget, .b-login-label{
+	font-size:11px ;
+	text-decoration: none;
+	color: #616161;
 }
