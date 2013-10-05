@@ -12,6 +12,29 @@ body {
     min-width: 944px;
 }
 
+.button{
+	background: transparent url('button-bg.gif') left center repeat-x;
+	border:none;
+	text-decoration: none;
+	padding: 1px 4px;
+	color: #000;
+	margin:3px ;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+}
+
+.button:hover{
+	-webkit-box-shadow: -3px 23px 6px -14px #DDDDDD inset;
+	-moz-box-shadow: -3px 23px 6px -14px #DDDDDD inset;
+	box-shadow: -3px 23px 6px -14px #DDDDDD inset;
+	color: #444;
+}
+
 nav a{
 	color: 	#878E89;
 }
@@ -83,6 +106,14 @@ img{
 	position: relative;
 }
 
+.login:hover{
+	color: #fff;
+}
+
+.login:hover:after{
+	background-image: url('cur-arrow-hover.png');
+}
+
 .login:after{
 	content: '';
 	position: absolute;
@@ -96,5 +127,9 @@ img{
 }
 
 .b-login{
-	display: none;
+	display: block;
+	top: 120%;
+	right: 0;
+	background: rgba(255,255,255, 0.11);
+
 }
