@@ -28,6 +28,8 @@ body {
 	padding: 1px 4px;
 	color: #000;
 	line-height: 1.5;
+	font-size: 10px;
+	text-transform: uppercase;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
@@ -254,7 +256,7 @@ img{
 }
 
 .top-menu-item-wrap:not(:first-child){
-	padding-left: 30px;
+	padding-left: 28px;
 	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARtJREFUeNpiTExMZMAB2IC4GojrcSlgYsAN8oG4DogNSNUsBMQVQPwdiHtJ1VwH1egGxE5A7I1NEQsSWxHqRBDOBOJ0ID4CxMuAeAIQawHxBSA+C8TvYJpBzkoGYn6oIZeBeBYQL4bya6BqMqEWgMAjIC4Gae4AYg8g/gXEGjBTkcB9IA6Csl2BeDsQHwTiNSA/v4b67QsQbwFiThzhAHL2UiDeBMSJyAH2FGqAHBDPx6IRZOAuqJ8jgPgvemjfAeLdOGwGhbwoEM+Feg9rVClCAwME1KEJRQjJ74r44lkOGurrgPgGNJQfQqPqC1Qeq2ZmqGQs1ImeQMwLihIg9gNiY3w2y0FD0gqIbYF4B9SvoDhXAuJo9GgECDAAOKw2ZwFzhRAAAAAASUVORK5CYII=) 8px center no-repeat;
 }
 
@@ -379,7 +381,7 @@ margin-bottom: 20px;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 21;
-	font-family: Noto sans, serif;
+	font-family: 'Noto Serif', serif;
 }
 
 .foot-block{
