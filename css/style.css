@@ -362,6 +362,8 @@ margin-bottom: 20px;
 
 
 .m-footer{
+	font-family: 'Droid Sans';
+
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG0AAAACCAYAAABSWlLZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAATBJREFUeNp8kr1Lw2AQhy+loyBtks3Jj5Ykq5+gDg5FXIr9H53FSQcnC2qha4ig4CpUxVGX1t+LT+CI4gsPee8jl7v7pV0URW5mR2JZvIgl0RFRg5b9nNr+ENdiU0zFungXG+Q9iR3Rde+E+ETExN/ECbUfxYK8Hs87au2JPu/fcg81UmpciKFIyH8lb9/56t7tDzvkn4sDMRanLj6mRs43fY2K+CH2DbUy7IweL8WWyxnhr7ANX6h9hj0gtiK+XM2qXZZlWOxcPDNolyY6jQHnTjhjweYWvSrWuE8ZsJkTI2oQbpfYxIkd8Qw93COWIV4Cffo0hFrY79NCsPgfwfxJyM+4p43YA+KMEK/+ZurmC/4ZeTN2mCFi1Ph56pM7f0S9Y3GF75PdbDNLEDH5FmAAES1E6fJ2MG8AAAAASUVORK5CYII=);
 	background-repeat: repeat-x;
 	padding: 34px 0 91px ;
@@ -375,5 +377,49 @@ margin-bottom: 20px;
 }
 
 .foot-block{
-	width: 200px;
+	width: 220px;
+}
+
+.foot-block-nav-item{
+	display: block;
+	text-decoration: none;
+	font-size: 11px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAYAAABirU3bAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADFJREFUeNpibG1t/c8ABFVVVYwgmgnGaGtrA0sw/v8PpuECTMgckGpmNjY2FDMAAgwApUgUFaQn3toAAAAASUVORK5CYII=);
+	background-position: 0 center;
+	background-repeat: no-repeat;
+	margin: 10px 0 ;
+	padding-left: 10px;
+	text-transform: capitalize;
+}
+
+.foot-block-nav-item.active{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAYAAABirU3bAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAnSURBVAiZTcnBDQAwDMLAS/bfmT6qSPCyzSSJv4E9QC7ouP1itgUezQwIB1qzV/UAAAAASUVORK5CYII=);
+	color: #fff;
+}
+
+.foot-block-search-inputs{
+	width: 130px;
+}
+
+.search-submit{
+	display: block;
+	margin: 10px 0;
+}
+
+.copy{
+	font-size: 11px;
+}
+
+.copy-site-title, .copy-powered{
+	color: #727272;
+	text-decoration: none;
+}
+
+.copy-site-title:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.copy-powered:hover{
+	color: #fff;
 }
