@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>Categories</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleMe.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
+    <script src="js/libs/modernizr.min.js"></script>
+    <script src="js/functions.js"></script>
+
+    <!--[if gte IE 9]>
+    <style type="text/css">
+    .gradient {
+    filter: none;
+    }
+    </style>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="css/iefix.css">
+    <![endif]-->
+
+</head>
+<body class="cf">
+
+  <header class="gl-inner m-header cf rel">
+    <h1 class="logo fl">
+        <!-- in case when show only logo -->
+        <a href="" class="logo-url">
+            <img src="logo.png" alt="the logo" class="logo-img">
+        </a> <!-- logo-url -->
+        <!-- in case when show the text instead of logo image-->
+      <!--  <a href="#" class="logo-text-url">
+            The site name
+        </a> -->
+    </h1> <!-- logo -->
+
+    <div class="b-cart rel fr">
+        <a href="" class="cart-url">корзина: </a>
+        <span class="cart-text">сейчас в вашей корзине 
+            <span class="cart-count">5</span> товаров
+        </span>
+    </div> <!-- b-cart -->
+
+    <div class="login-wrap abs">
+        <a href="#" class="login" id="logIn">
+            Войти
+        </a> <!-- login -->
+        <div class="b-login abs" id="loginDropdown">
+
+              <!-- when user is not client show this one -->
+           <form action="login">
+              <label for="login-mail" class="b-login-label">Эл. Почта</label>
+                <input type="text" id="login-mail" class="b-login-input gl-input-field">
+                <label for="login-password" class="b-login-label">Пароль</label>
+                <input type="text" id="login-password" class="b-login-input gl-input-field">
+                <button class="button login-submit fl">войти</button>
+                <a href="#" class="button to-reg fl">регистрация</a>
+                <a href="" class="link password-forget cb">забыли пароль ?</a>
+            </form>
+   
+              <!--and  when is client show the bellow -->
+            <nav class="b-login-nav" style="display:none;">
+                <a href="#" class="b-login-nav-item">Заказы и скидки</a>
+                <a href="#" class="b-login-nav-item">Адрес доставки </a>
+                <a href="#" class="b-login-nav-item">Контактные данные</a>
+                <a href="#" class="b-login-nav-item">Обратная связь</a>
+                <a href="#" class="b-login-nav-item">Выход</a>
+            </nav> 
+
+        </div> <!-- b-login -->
+    </div> <!-- login-wrap -->
+  </header> <!-- m-header -->
+
+  <div class="gl-outer top-nav-wrapper">
+    <nav class="gl-inner b-top-menu">
+      <ul class="top-menu">
+        <li class="top-menu-item-wrap ">
+          <a href="#" class="top-menu-item active"> главная </a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">новинки</a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">специальное</a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">все продукты</a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">отзывы</a>
+        </li>
+         <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">контакт</a>
+        </li>
+        <li class="top-menu-item-wrap">
+          <a href="#" class="top-menu-item">Помощь </a>
+        </li>
+      </ul> <!-- top-menu -->
+    </nav> <!-- b-top-menu -->
+  </div> <!-- top-nav-wrapper -->
+
+  <div class=" content-wrap gl-inner cf">
+    <section class="content fl">
+       <h1 class="content-page-title">Зимние</h1>
+      <div class="category-description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, ad, deserunt, at, consequatur animi harum odit modi quo nulla hic quaerat autem placeat possimus. Ut, obcaecati eius natus.</p>
+      </div>
+      <div class="category-filter">
+        <form action="sorting"> 
+          <label for="type-filter" class="filter-label">Сортировать по:</label>
+           <select name="" id="type-filter" class="filter-select">
+            <option value="by somehitng">По возрастанию цены</option>
+            <option value="by somehitng">По убыванию цены</option>
+            <option value="by somehitng">Алфавиту А-Я</option>
+            <option value="by somehitng">Алфавиту Я-А</option>
+            <option value="by somehitng">Дате добавления Новые-Старые</option>
+            <option value="by somehitng">Дате добавления Старые-Новые</option>
+          </select>
+          <label for="type-pages" class="filter-label">На странице: </label>
+          <select name="" id="type-pages" class="filter-select">
+            <option value="12">12 товаров</option>
+            <option value="12">22 товара</option>
+            <option value="12">44 товаров</option>
+            <option value="12">88 товаров</option>
+          </select>
+        </form> 
+      </div>  <!-- category-filter -->
+      <div class="item-count fl">Показано 4 из 20 продуктов</div>
+      <div class="pagination-wrap fr">
+        <nav class="pagination">
+          <a href="" class="pagination-item pagination-item_text">предыдущая</a>
+          <a href="#" class="pagination-item pagination-item-numbers active">1</a>
+          <a href="#" class="pagination-item pagination-item-numbers">2</a>
+          <a href="#" class="pagination-item pagination-item-numbers">3</a>
+          <a href="#" class="pagination-item pagination-item-numbers">4</a>
+          <a href="#" class="pagination-item pagination-item-numbers">5</a>
+          <a href="" class="pagination-item pagination-item_text">следующая</a>
+        </nav>
+      </div>
+      <div class="product-list">
+
+      </div> 
+   </section>  <!-- content --> 
+    <aside class="sidebar fr">
+       <h1 class="content-page-title">Специальное</h1>
+    </aside>
+  </div> <!-- content-wrap -->
+
+  <footer class="m-footer gl-outer cb">
+    <section class="foot-blocks cf gl-inner">
+
+      <div class="foot-block-nav foot-block fl">
+        <h2 class="foot-block-title">
+         меню
+        </h2>
+        <nav class="foot-block-nav-items">
+          <a href="#" class="foot-block-nav-item nav-item active">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+        </nav>
+      </div> <!-- foot-block / foot-block-nav -->
+
+      <div class="foot-block-nav foot-block fl">
+        <h2 class="foot-block-title">
+          меню
+        </h2>
+        <nav class="foot-block-nav-items">
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+        </nav>
+      </div> <!-- foot-block / foot-block-nav -->
+
+      <div class="foot-block-nav foot-block fl">
+        <h2 class="foot-block-title">
+          меню
+        </h2>
+        <nav class="foot-block-nav-items">
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+          <a href="#" class="foot-block-nav-item nav-item">пункт меню</a>
+        </nav>
+      </div> <!-- foot-block / foot-block-nav -->
+
+      <div class="foot-block foot-block-search fr">
+        <h2 class="foot-block-title">
+           поиск
+        </h2>
+        <div class="foot-block-search-inputs">
+          <form action="search" class="foot-blocks-search-form">
+            <input type="text" class="foot-block-input  gl-input-field fl">
+            <button class="gl-form-button button search-submit fr cb" type="submit">
+              искать
+            </button>
+          </form> <!-- foot-blocks-search-form -->
+        </div>  <!-- foot-blocks-search-inputs -->
+      </div> <!-- foot-block / foot-block-search- -->
+
+       <div class="copy fr cb">
+        <a href="#" class="copy-site-title">
+          Accessories 
+        </a>
+        <span>&copy; 2013 сделанно в</span>
+        <a href="http://insales.ru" class="copy-powered">InSales.ru</a>
+      </div> <!-- copy -->
+
+    </section> <!-- foot-blocks -->
+  </footer> <!-- m-footer -->
+  
+</body>
+</html>
