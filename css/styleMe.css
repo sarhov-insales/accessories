@@ -12,11 +12,11 @@
 }
 
 .b-main-block:nth-child(odd) .b-main-bg-url:hover{
-	-webkit-transform: scale(2) rotate(10deg);
-	-moz-transform: scale(2) rotate(10deg);
-	-ms-transform: scale(2) rotate(10deg);
-	-o-transform: scale(2) rotate(10deg);
-	transform: scale(2) rotate(10deg);
+	-webkit-transform: scale(2) rotate(10deg) ;
+	-moz-transform: scale(2) rotate(10deg) ;
+	-ms-transform: scale(2) rotate(10deg) ;
+	-o-transform: scale(2) rotate(10deg) ;
+	transform: scale(2) rotate(10deg) ;
 	opacity: 0.4;
 }
 
@@ -31,4 +31,8 @@
 
 .b-main-bg:hover{
 		border-width: 10px;
+}
+
+.b-main-bg-url{
+	border: none;
 }

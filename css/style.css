@@ -332,4 +332,6 @@ img{
 	background-origin: border-box;
 }
 
-
+.b-main-bg-url:hover{
+		border-width: 10px;
+}
