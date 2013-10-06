@@ -538,3 +538,27 @@ background: rgb(255,226,0); /* Old browsers */
 	color:#000;
 	font-weight: bold;
 }
+
+.product-list{
+	padding-top: 20px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.product-table{
+	 border-left: 1px solid #666666;
+}
+
+.product-table-titles th{
+	
+    padding: 5px 10px;
+    text-align: center;
+      background: none repeat scroll 0 0 #2A2A2A;
+    color: #FFFFFF;
+    font-size: 12px;
+
+}
+
+.product-table td, .product-table th  {
+    border: 1px solid #666666;
+    padding: 5px;
+}
