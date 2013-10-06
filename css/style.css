@@ -305,7 +305,7 @@ img{
 	height: 350px;
 	overflow: hidden;
 	border: 0px solid #fff;
-margin-bottom: 30px;
+margin-bottom: 20px;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	-ms-transition: all 0.4s;
@@ -348,6 +348,16 @@ margin-bottom: 30px;
 	color: #FF8B00;
 	font-style: italic;
 	text-transform: capitalize;
+	position: relative;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	line-height: 1;
+}
+
+
+.b-main-block:hover .b-main-block-title-url{
+	color: #fff;
 }
 
 
