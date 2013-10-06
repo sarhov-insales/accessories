@@ -1,0 +1,34 @@
+
+.b-main-bg{
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPgo8cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjNDAzYzNmIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMOCA4Wk04IDBMMCA4WiIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2U9IiMxZTI5MmQiPjwvcGF0aD4KPC9zdmc+");
+}
+
+.b-main-bg-url{
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.b-main-block:nth-child(odd) .b-main-bg-url:hover{
+	-webkit-transform: scale(2) rotate(10deg);
+	-moz-transform: scale(2) rotate(10deg);
+	-ms-transform: scale(2) rotate(10deg);
+	-o-transform: scale(2) rotate(10deg);
+	transform: scale(2) rotate(10deg);
+	opacity: 0.4;
+}
+
+.b-main-block:nth-child(even) .b-main-bg-url:hover{
+	-webkit-transform: scale(2) rotate(-10deg);
+	-moz-transform: scale(2) rotate(-10deg);
+	-ms-transform: scale(2) rotate(-10deg);
+	-o-transform: scale(2) rotate(-10deg);
+	transform: scale(2) rotate(-10deg);
+	opacity: 0.4;
+}
+
+.b-main-bg:hover{
+		border-width: 10px;
+}

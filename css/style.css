@@ -234,7 +234,7 @@ img{
 	background: -o-linear-gradient(top,  rgba(43,43,43,1) 0%,rgba(0,0,0,0.95) 2%,rgba(0,0,0,0.57) 3%,rgba(0,0,0,0.28) 30%,rgba(0,0,0,0.19) 39%,rgba(0,0,0,0.2) 46%,rgba(0,0,0,0.24) 54%,rgba(0,0,0,0.33) 62%,rgba(0,0,0,0.63) 82%,rgba(0,0,0,0.76) 92%,rgba(0,0,0,0.82) 98%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(43,43,43,1) 0%,rgba(0,0,0,0.95) 2%,rgba(0,0,0,0.57) 3%,rgba(0,0,0,0.28) 30%,rgba(0,0,0,0.19) 39%,rgba(0,0,0,0.2) 46%,rgba(0,0,0,0.24) 54%,rgba(0,0,0,0.33) 62%,rgba(0,0,0,0.63) 82%,rgba(0,0,0,0.76) 92%,rgba(0,0,0,0.82) 98%,rgba(0,0,0,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(43,43,43,1) 0%,rgba(0,0,0,0.95) 2%,rgba(0,0,0,0.57) 3%,rgba(0,0,0,0.28) 30%,rgba(0,0,0,0.19) 39%,rgba(0,0,0,0.2) 46%,rgba(0,0,0,0.24) 54%,rgba(0,0,0,0.33) 62%,rgba(0,0,0,0.63) 82%,rgba(0,0,0,0.76) 92%,rgba(0,0,0,0.82) 98%,rgba(0,0,0,1) 100%); /* W3C */
-
+	margin-bottom: 55px;	
 	font-family: 'droid_serifregular';
 }
 
@@ -262,7 +262,7 @@ img{
 	font-size: 16px;
 	color: #fff;
 	display: block;
-	padding: 4px 6px;
+	padding: 5px 7px;
 	text-decoration: none;
 	overflow: hidden;
 	-webkit-border-radius: 2px;
@@ -282,5 +282,54 @@ img{
 	background: -ms-linear-gradient(top,  rgba(255,226,0,1) 0%,rgba(255,209,0,1) 18%,rgba(255,115,0,1) 82%,rgba(255,98,0,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,226,0,1) 0%,rgba(255,209,0,1) 18%,rgba(255,115,0,1) 82%,rgba(255,98,0,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe200', endColorstr='#ff6200',GradientType=0 ); /* IE6-8 */
-
 }
+
+.b-main-blocks{
+	text-align: center;
+	width: 984px;
+	margin-left: -28px;
+	margin-bottom: 25px;
+}
+
+.b-main-block{
+	width: 305px;
+	height: 425px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.b-main-bg{
+	width: 305px;
+	height: 350px;
+	overflow: hidden;
+	border: 0px solid #fff;
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.b-main-bg-url{
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-indent: -9999px;
+	overflow: hidden;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border: 0px solid #fff;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	-webkit-background-origin: border-box;
+	background-origin: border-box;
+}
+
+
