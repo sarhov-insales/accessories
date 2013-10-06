@@ -26,7 +26,7 @@
 	-ms-transform: scale(2) rotate(-10deg);
 	-o-transform: scale(2) rotate(-10deg);
 	transform: scale(2) rotate(-10deg);
-	opacity: 0.4;
+	opacity: 0.3;
 }
 
 .b-main-bg:hover{
