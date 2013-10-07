@@ -734,6 +734,35 @@ background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAA
 	width: 200px;
 	height: 200px;
 	overflow: hidden;
+
+}
+
+.grid-image-url{
+	display: block;
+	position: relative;
+
+}
+
+.grid-image-url:before{
+	content: '';
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	left: 0;
+		border: 0px solid #FFA700;
+	-webkit-background-clip: border-box;
+	-moz-background-clip: border-box;
+	background-clip: border-box;
+}
+
+.grid-image-url:hover:before{
+	border-width: 5px;
 }
 
 .grid-item-title{
