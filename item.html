@@ -144,27 +144,40 @@
           <h1 class="item-title">
             название товара
           </h1> <!-- item-title -->
-          <table class="item-properties-table">
+          <table class="item-properties">
+
             <tr class="property-line">
-              <td class="item-property-name"></td>
-              <td class="item-property-value"></td>
+              <td class="item-property-name">Страна: </td>
+              <td class="item-property-value">Китай</td>
+            </tr>           
+             <tr class="property-line">
+              <td class="item-property-name">Бренд: </td>
+              <td class="item-property-value">Валентино</td>
             </tr>
+            
+            <tr class="property-line">
+              <td class="item-property-name">Стиль: </td>
+              <td class="item-property-value">Вечерний</td>
+            </tr>           
+             
+
           </table> <!-- item-properties-table -->
           <div class="item-prices">
-            Цена: <div class="quantity-wrapper cf">
-                     <div class="plus-minus fr">
-                         <span class="plus"></span>
-                         <span class="minus"></span>
-                       </div><!-- plus-minus -->
-                       <input type="text" name="" id="" class="buy-item-count-input ">
-                    </div><!-- quantity-wrapper -->
-                    <button class="buy button">Купить</button>
-            <span class="gl-old-price"></span>
-            <span class="gl-new-price"></span>
-          </div> <!-- item-prices -->
-          <div class="item-buy">
+            <strong>Цена: </strong>
+            <span class="gl-old-price">2300 руб</span>
+            <span class="gl-new-price">2500</span>
+          </div> <!-- item-prices -->  
+              <strong class="item-count-text fl">Кол.</strong> 
+            <div class="quantity-wrapper flr cf">
+              <div class="plus-minus fr">
+                 <span class="plus"></span>
+                 <span class="minus"></span>
+              </div><!-- plus-minus -->
+               <input type="text" name="" id="" class="buy-item-count-input ">
+            </div><!-- quantity-wrapper -->
+         
+          <div class="item-buy fl">
             <form action="buyitem">
-              Кол. 
             </form> 
           </div> <!-- item-buy -->
         </section> <!-- item-info -->
