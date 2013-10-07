@@ -697,6 +697,7 @@ background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAA
 
 .sidebar-navigation{
 	border-bottom: 1px solid #666;
+	padding-bottom: 5px;
 }
 
 .sidebar-nav-item{
@@ -709,6 +710,6 @@ background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAA
 	font: 13px 'Noto Sans', sans-serif;
 }
 
-.sidebar-nav-item:hover{
+.sidebar-nav-item:hover, .sidebar-nav-item.active{
 	color: #FFA700;
 }
