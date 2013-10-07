@@ -476,7 +476,7 @@ margin-bottom: 20px;
 	width: 215px;
 }
 
-.content-old{
+.content-old, .content-item{
 	background: #060606;
 	border: 1px solid #666;	
 }
@@ -785,7 +785,7 @@ background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAA
 }
 
 .item{
-	padding-top: 10px;
+	padding: 10px;
 }
 
 .item-image-url{
