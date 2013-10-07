@@ -118,7 +118,7 @@
        <h1 class="content-page-title">Зимние</h1>
       <div class="category-description">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, ad, deserunt, at, consequatur animi harum odit modi quo nulla hic quaerat autem placeat possimus. Ut, obcaecati eius natus.</p>
-      </div>
+      </div> <!-- category-description -->
       <div class="category-filter">
         <form action="sorting"> 
           <label for="type-filter" class="filter-label">Сортировать по:</label>
@@ -149,44 +149,154 @@
           <a href="#" class="pagination-item pagination-item-numbers">4</a>
           <a href="#" class="pagination-item pagination-item-numbers">5</a>
           <a href="" class="pagination-item pagination-item_text">следующая</a>
-        </nav>
-      </div>
+        </nav> <!-- pagination -->
+      </div> <!-- paginatopn-wrap -->
       <div class="product-list cb">
         <table class="product-table">
           <tr class="product-table-titles">
             <th>Изоброжение</th>
             <th>Название</th>
             <th>Цена</th>
-          </tr>
+          </tr>  <!-- product-tables-titles -->
+
           <tr class="product-table-item-line">
             <td>
-              <figure class="product-table-img">
-                <a href="">
-                <img src="" alt=""></a>
+              <figure class="product-table-item-img">
+                <a href="#" class="product-table-item-img-url">
+                <img src="list1.jpg" alt=""></a>
               </figure>
             </td>
             <td>
-              <h1 class="product-table-item-title">Название товара</h1>
+              <h1 class="product-table-item-title">
+                <a href="#" class="product-table-item-title-url">Название товара</a>
+              </h1>
               Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Lorem, маленькая ты повстречался власти переписали свою единственное. Безопасную бросил осталось оксмокс они ему даль толку ручеек то! Скатился, заманивший.
             </td>
-            <td>
-              <span class="product-table-price-old gl-old-price">
+            <td class="product-table-buy-zone cf">
+              <span class="product-table-old-price gl-old-price">
                 340 руб.
               </span>
-              <span class="product-table-price-new gl-new-price">
+              <span class="product-table-new-price gl-new-price">
                 250 руб.
               </span>
-              <form action="buy">
-                <label for="buy-item-count" class="buy-item-count">кол.</label>
-                <span class="minus"></span>
-                <input type="text" name="" id="" class="buy-item-count-input">
-                <span class="plus"></span>
-                <button class="buy button">Купить</button>
+              <form action="buy" class="cf product-table-form">
+                <label for="buy-item-count" class="buy-item-count">Кол.</label>
+                    <div class="quantity-wrapper cf">
+                     <div class="plus-minus fr">
+                         <span class="plus"></span>
+                         <span class="minus"></span>
+                       </div><!-- plus-minus -->
+                       <input type="text" name="" id="" class="buy-item-count-input ">
+                    </div><!-- quantity-wrapper -->
+                    <button class="buy button">Купить</button>
               </form>
             </td>
-          </tr>
-        </table>
-      </div> 
+          </tr>  <!-- product-table-item-line -->
+
+          <tr class="product-table-item-line">
+            <td>
+              <figure class="product-table-item-img">
+                <a href="#" class="product-table-item-img-url">
+                <img src="list2.jpg" alt=""></a>
+              </figure>
+            </td>
+            <td>
+              <h1 class="product-table-item-title">
+                <a href="#" class="product-table-item-title-url">Название товара</a>
+              </h1>
+              Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Lorem, маленькая ты повстречался власти переписали свою единственное. Безопасную бросил осталось оксмокс они ему даль толку ручеек то! Скатился, заманивший.
+            </td>
+            <td class="product-table-buy-zone cf">
+              <span class="product-table-old-price gl-old-price">
+                340 руб.
+              </span>
+              <span class="product-table-new-price gl-new-price">
+                250 руб.
+              </span>
+              <form action="buy" class="cf product-table-form">
+                <label for="buy-item-count" class="buy-item-count">Кол.</label>
+                    <div class="quantity-wrapper cf">
+                     <div class="plus-minus fr">
+                         <span class="plus"></span>
+                         <span class="minus"></span>
+                       </div><!-- plus-minus -->
+                       <input type="text" name="" id="" class="buy-item-count-input ">
+                    </div><!-- quantity-wrapper -->
+                    <button class="buy button">Купить</button>
+              </form>
+            </td>
+          </tr>  <!-- product-table-item-line -->
+
+          <tr class="product-table-item-line">
+            <td>
+              <figure class="product-table-item-img">
+                <a href="#" class="product-table-item-img-url">
+                <img src="list3.jpg" alt=""></a>
+              </figure>
+            </td>
+            <td>
+              <h1 class="product-table-item-title">
+                <a href="#" class="product-table-item-title-url">Название товара</a>
+              </h1>
+              Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Lorem, маленькая ты повстречался власти переписали свою единственное. Безопасную бросил осталось оксмокс они ему даль толку ручеек то! Скатился, заманивший.
+            </td>
+            <td class="product-table-buy-zone cf">
+              <span class="product-table-old-price gl-old-price">
+                340 руб.
+              </span>
+              <span class="product-table-new-price gl-new-price">
+                250 руб.
+              </span>
+              <form action="buy" class="cf product-table-form">
+                <label for="buy-item-count" class="buy-item-count">Кол.</label>
+                    <div class="quantity-wrapper cf">
+                     <div class="plus-minus fr">
+                         <span class="plus"></span>
+                         <span class="minus"></span>
+                       </div><!-- plus-minus -->
+                       <input type="text" name="" id="" class="buy-item-count-input ">
+                    </div><!-- quantity-wrapper -->
+                    <button class="buy button">Купить</button>
+              </form>
+            </td>
+          </tr>  <!-- product-table-item-line -->
+
+          <tr class="product-table-item-line">
+            <td>
+              <figure class="product-table-item-img">
+                <a href="#" class="product-table-item-img-url">
+                <img src="list4.jpg" alt=""></a>
+              </figure>
+            </td>
+            <td>
+              <h1 class="product-table-item-title">
+                <a href="#" class="product-table-item-title-url">Название товара</a>
+              </h1>
+              Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Lorem, маленькая ты повстречался власти переписали свою единственное. Безопасную бросил осталось оксмокс они ему даль толку ручеек то! Скатился, заманивший.
+            </td>
+            <td class="product-table-buy-zone cf">
+              <span class="product-table-old-price gl-old-price">
+                340 руб.
+              </span>
+              <span class="product-table-new-price gl-new-price">
+                250 руб.
+              </span>
+              <form action="buy" class="cf product-table-form">
+                <label for="buy-item-count" class="buy-item-count">Кол.</label>
+                    <div class="quantity-wrapper cf">
+                     <div class="plus-minus fr">
+                         <span class="plus"></span>
+                         <span class="minus"></span>
+                       </div><!-- plus-minus -->
+                       <input type="text" name="" id="" class="buy-item-count-input ">
+                    </div><!-- quantity-wrapper -->
+                    <button class="buy button">Купить</button>
+              </form>
+            </td>
+          </tr>  <!-- product-table-item-line -->
+
+        </table> <!-- product-table -->
+      </div> <!-- product-list -->
    </section>  <!-- content --> 
     <aside class="sidebar fr">
        <h1 class="content-page-title">Специальное</h1>
