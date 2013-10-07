@@ -570,6 +570,7 @@ background: rgb(255,226,0); /* Old browsers */
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/*the begin of the product table*/
 
 .product-table-titles th{
     padding: 5px 10px;
@@ -632,6 +633,8 @@ background: rgb(255,226,0); /* Old browsers */
 .product-table-form{
 	margin: 15px 0;
 }
+
+/*the end table part*/
 
 .buy-item-count-input{
 		width:50px ;
