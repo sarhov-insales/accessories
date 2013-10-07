@@ -66,6 +66,7 @@ body {
 	color: #FFA700;
 	font-family: 'Noto Serif', serif;
 	font-size: 16px;
+	font-weight: bold;
 }
 
 .gl-old-price{
@@ -73,6 +74,7 @@ body {
 	font-family: 'Noto Serif', serif;
 	font-size: 16px;
 	text-decoration: line-through;
+	font-weight: bold;
 }
 
 .gl-item-title{
@@ -721,6 +723,38 @@ background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAA
 	color: #FFA700;
 }
 
+.grid-item{
+	width: 200px;
+	margin-right: 31px;
+	margin-bottom: 31px;
+	float: left;
+}
+
+.grid-image{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.grid-item-title{
+	height: 40px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.grid-item-title-url{
+	font-size: 15px;
+}
+
+.grid-buy-zone{
+	margin-bottom: 10px;
+}
+
+.grid-item-more{
+	padding: 5px;
+	height: 22px;
+}
+
 .item{
 	padding-top: 10px;
 }
@@ -735,16 +769,16 @@ background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAA
 
 .item-image{
 		background: #000;
-			border: 1px solid #666;
+		border: 1px solid #666;
 		padding: 2px;
 		display: inline-block;
 }
 
 .item-other-images{
-			background: #000;
-			border: 1px solid #666;
-		padding: 10px 0 8px 10px;
-		text-align: center;
+	background: #000;
+	border: 1px solid #666;
+	padding: 10px 0 8px 10px;
+	text-align: center;
 }
 .item-other-image-url{
 	display: inline-block;
